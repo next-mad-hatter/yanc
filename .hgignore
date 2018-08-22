@@ -1,0 +1,13 @@
+syntax: glob
+
+*~
+*.swp
+tags
+
+lib/ext/nims
+lib/ext/yields
+lib/vendor/jruby*
+
+log/*
+tmp/*
+

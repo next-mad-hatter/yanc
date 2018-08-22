@@ -1,0 +1,10 @@
+
+* To create a zip archive of the source tree, run pkg.sh script found in
+  this directory.
+
+* Overriding the name of the archive can be done per SUBMISSION
+  environment variable.
+
+* If you wish to include any jruby files found in lib/vendor,
+  you should set BUNDLE environment variable.
+

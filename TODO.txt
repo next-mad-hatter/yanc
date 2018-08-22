@@ -1,0 +1,4 @@
+  * [pkg] packaging: exclude ext binaries
+  * [yanc] add player emulation (w/ best/any/bad move probability)
+  * [test] cover wider rulesets set via tests
+
