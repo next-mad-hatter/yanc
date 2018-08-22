@@ -7,18 +7,18 @@
  TABLE OF CONTENTS
 ===============================================================================
 
-  0. What is this?
-  1. Quick Start
-  2. Requirements
-  3. Installation
-  4. Usage
-  5. Interactive Mode
-    5.1. Initial configuration.
-    5.2. Current configuration and move listings.
-    5.3. Move commands.
-  6. Limitations
-  7. Source
-  8. Use Terms
+  1. What is this?
+  2. Quick Start
+  3. Requirements
+  4. Installation
+  5. Usage
+  6. Interactive Mode
+    6.1. Initial configuration.
+    6.2. Current configuration and move listings.
+    6.3. Move commands.
+  7. Limitations
+  8. Source
+  9. Use Terms
 
 
 ===============================================================================
@@ -40,7 +40,7 @@ acceptable computation time, the number of different values in
 exceed 4 -- YMMV, of course (also see the -m option below).
 
 ===============================================================================
- 1. QUICK START
+ 2. QUICK START
 ===============================================================================
 
 To quickly try out the cruncher, run
@@ -53,7 +53,7 @@ studying this document.
 
 
 ===============================================================================
- 2. REQUIREMENTS
+ 3. REQUIREMENTS
 ===============================================================================
 
 To build this software, you'll need to have the MLton compiler installed.
@@ -73,7 +73,7 @@ using bash, time utilities.
 
 
 ===============================================================================
- 3. INSTALLATION
+ 4. INSTALLATION
 ===============================================================================
 
 You may already have gotten a jruby jar file residing inside the ./lib/vendor
@@ -97,7 +97,7 @@ compiler to build native extension with).
 
 
 ===============================================================================
- 4. USAGE
+ 5. USAGE
 ===============================================================================
 
 For usage and list of options, run
@@ -121,10 +121,10 @@ Sample rulesets may be found inside the ./data/rules dir.
 
 
 ===============================================================================
- 5. INTERACTIVE MODE
+ 6. INTERACTIVE MODE
 ===============================================================================
 
-5.1. Initial configuration.
+6.1. Initial configuration.
 
 Initial configuration can be entered by either using "-e" option and following
 onscreen instructions or entering a list of pile heights on a single line,
@@ -133,7 +133,7 @@ height can be done via "count*height" shortcut.  We explicitly allow for piles
 of zero height here.
 
 
-5.2. Current configuration and move listings.
+6.2. Current configuration and move listings.
 
 After each move, current piles' configuration will be printed, surrounded by
 square brackets (and followed by the configuration's nim number in case of
@@ -144,7 +144,7 @@ Before software's moves, a list of winning moves will be printed as
 " + old_pile -> new_pile(s)" lines, followed by chosen move highlighted by "=>".
 
 
-5.3. Move commands.
+6.3. Move commands.
 
 User's moves should be entered as a single line consisiting of
 
@@ -156,7 +156,7 @@ separated by whitespace.  Empty piles can be entered as "0".
 
 
 ===============================================================================
- 6. LIMITATIONS
+ 7. LIMITATIONS
 ===============================================================================
 
 At the time of writing, run time behaviour is something that has to be
@@ -167,7 +167,7 @@ factor graphs, you may want to consider using the provided "-m" option.
 
 
 ===============================================================================
- 7. SOURCE
+ 8. SOURCE
 ===============================================================================
 
 Internal workings of this software can be studied by reading ./lib/yanc.rb as
@@ -176,7 +176,7 @@ householding scripts.
 
 
 ===============================================================================
- 8. USE TERMS
+ 9. USE TERMS
 ===============================================================================
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
